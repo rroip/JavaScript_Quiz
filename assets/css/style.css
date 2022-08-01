@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: monospace; 
+    font-size: 22px;
+    background-color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style: none;
+    color: #264f88;
+    height: 60px;
+    font-size: 2vw;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'monospace';font-size: 22px;
+}
+button {
+    border-radius: 5px;
+    background-color: #ddb15b;
+    color: black;
+    width: 175px;
+    font-family: 'monospace';font-size: 20px;
+    border: 0;
+    outline: 0;
+}
+button:hover {
+    cursor: pointer;
+}
+.btn {
+    border-radius: 10px;
+    background-color: #2f9f2f;
+    /*text-decoration: none;*/
+    margin-top: 25px;
+    border: 0;
+    outline: 0; /* Remove border around button */
+    color: black;
+    font-family: 'monospace';font-size: 20px;
+   
+}
+.btn:hover {
+    cursor: pointer;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+ul li {
+    background-color: #2f9f2f;
+    border-radius: 5px;
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+}
+
+ul li:hover {
+    background-color: #95eb95;
+    cursor: pointer;
+}
+#container {
+    background-color: aquamarine;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 15px;
+    display: flex;
+    /*flex-wrap: wrap;*/
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    font-family: 'monospace';font-size: 22px;
+}
+#container h1 {
+    text-align: center;
+    text-decoration: underline;
+    padding-bottom: 15px;
+}
+#question-box {
+    background-color: aquamarine;
+    padding: 15px;
+    display: flex;
+    align-self: baseline;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-family: 'monospace';
+}
+
+
+.hide {
+    display: none;
+    
+}
+
+#final-score {
+    text-align: center;
+}
+
+@media screen and (max-width: 768px){}
